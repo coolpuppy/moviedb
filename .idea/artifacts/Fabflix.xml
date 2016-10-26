@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="war" build-on-make="true" name="Fabflix">
+    <output-path>$PROJECT_DIR$/out/artifacts/Fabflix</output-path>
+    <root id="archive" name="Fabflix.war">
+      <element id="javaee-facet-resources" facet="Fabflix/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="Fabflix" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
